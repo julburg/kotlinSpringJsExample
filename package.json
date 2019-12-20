@@ -1,0 +1,21 @@
+{
+  "name": "kotlinspringexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "build": "rollup -c",
+  "dev": "rollup -c -w",
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "rollup": "^1.27.12",
+    "rollup-plugin-terser": "^5.1.3",
+    "@types/jest": "^24.0.23",
+    "babel-jest": "^24.9.0"
+  }
+}

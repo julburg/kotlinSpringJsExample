@@ -1,0 +1,31 @@
+# General ignores (tmp files and such)
+*~
+*.tmp
+*.swp
+
+# Build products
+target/
+logs/
+
+# maven-frontend-plugin and nodejs
+node/
+node_modules/
+
+# IDEs
+.metadata/
+.project
+.tmp/
+*.iml
+.idea/
+.settings/
+.classpath
+.factorypath
+.DS_Store
+.vscode
+
+# Spring configuration files (only toplevel)
+/application*.properties
+/application*.yml
+
+# jenv config
+.java-version
